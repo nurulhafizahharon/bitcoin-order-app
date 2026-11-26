@@ -48,3 +48,15 @@ Thumbs.db
 server/node_modules
 server/.env
 server/package-lock.json
+
+# Python virtual environment
+.venv/
+ml/.venv/
+
+# Python cache
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Locally generated ML artifacts
+ml/artifacts/
